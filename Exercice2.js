@@ -1,0 +1,11 @@
+let l1=[2,4,3];
+let l2=[5,6,4];
+const reversedl1=l1.reverse().join('');
+const reversedl2=l2.reverse().join('');
+console.log(reversedl1);
+console.log(reversedl2);
+var somme=parseInt(reversedl1)+parseInt(reversedl2);
+console.log(somme);
+var array = somme.toString().split('');
+for (i = 0; i < array.length; i++) array[i] = +array[i];
+console.log(array.reverse());
